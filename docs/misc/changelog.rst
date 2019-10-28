@@ -22,6 +22,7 @@ Bug Fixes:
 ^^^^^^^^^^
 - Fix seeding, so it is now possible to have deterministic results on cpu
 - Fix a bug in DDPG where `predict` method with `deterministic=False` would fail
+- trpo_mpi.py bug fix: mean_losses is not initialized
 
 Deprecations:
 ^^^^^^^^^^^^^
